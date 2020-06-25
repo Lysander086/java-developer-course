@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两行三列布局</title>
+    <style>
+        html, body {
+            /* 自定义外边距 */
+            margin: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            height: 150px;
+        }
+
+        #container {
+            background-color: grey;
+            height: 450px;
+        }
+        /* 块级元素 默认会横占 整个页面 */
+        aside{
+            background-color: lightcoral;
+            height: 100%;
+            width: 100px;
+            float: right;
+        }
+        nav{
+            background-color: lightgreen;
+            height: 100%;
+            width: 100px;
+            float: left;
+        }
+        article{
+            background-color: lightyellow;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<header></header>
+<div id="container">
+    <nav></nav>
+    <aside></aside>
+    <article>
+                <p>this is a paragraph</p>
+    </article>
+</div>
+</body>
+</html>

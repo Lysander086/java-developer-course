@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .block{
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .block:nth-child(2){
+            position: relative; /* */
+            top: 10px;
+            left: 10px;
+            border-color: red;
+        }
+        .block:nth-child(3){
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="block">a</div>
+<div class="block">b</div>
+<div class="block">c</div>
+</body>
+</html>
