@@ -1,6 +1,9 @@
 package com.example.course.controller;
 
 import com.example.course.entity.Course;
+import com.example.course.service.CourseListService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -8,10 +11,11 @@ import java.util.List;
 @RestController
 public class CourseListController {
 
-//    @Autowired
+    @Autowired
+    CourseListService courseListService;
 
-
+    @GetMapping("/courses")
     public List<Course> courseList(){
-        return null;
+        return courseListService.getCourseList();
     }
 }
