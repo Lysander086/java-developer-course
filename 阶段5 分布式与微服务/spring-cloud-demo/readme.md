@@ -1,0 +1,1 @@
+- demo project , following official guide to create a spring cloud demo [Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery/)
