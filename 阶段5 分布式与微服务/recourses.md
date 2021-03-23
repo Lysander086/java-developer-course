@@ -1,6 +1,7 @@
 # Official guide
 
 - [Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery/)
+  - note: 我亲自尝试了, 报错误解, 发现这个 spring boot 的报错信息 网上搜也搜不到答案
 
 # books
 
@@ -8,7 +9,7 @@
 
   - [github repo](https://github.com/PacktPublishing/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud)
 
-- [spring microservices in action ](https://www.pdfdrive.com/spring-microservices-in-action-e184674211.html)
+- [spring microservices in action](https://www.pdfdrive.com/spring-microservices-in-action-e184674211.html)
 
 # course notes
 
